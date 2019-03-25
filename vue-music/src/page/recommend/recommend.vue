@@ -22,7 +22,7 @@
             </div>
           </div>
         </div>
-        <loading v-show="hotRecommon.length<=0"></loading>
+        <loading v-show="hotRecommon.length<=0" class="meLoading"></loading>
       </div>
       
     </is-scroll>
@@ -90,16 +90,18 @@
 <style lang="less" scoped>
   .Rtop {
     width: 100%;
-    height: 12vh;
+    height: 10.5vh;
     position: fixed;
     z-index: 999;
     top: 0;
     left: 0;
     background: saddlebrown;
   }
-
+  .meLoading{
+    margin-top: 44%;
+  }
   .img_content {
-    margin-top: 12vh;
+    margin-top: 10.5vh;
     width: 100%;
   }
 

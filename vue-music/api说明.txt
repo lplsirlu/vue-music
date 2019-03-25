@@ -12,6 +12,60 @@
 
 字母排序  : https://c.y.qq.com/v8/fcg-bin/v8.fcg?channel=singer&page=list&key=all_all_all&pagesize=100&pagenum=1&g_tk=1664029744&loginUin=280309453&hostUin=0&format=jsonp&inCharset=utf8&outCharset=utf-8&notice=0&platform=yqq&needNewCodr=0
 
+001JuGrt372YIQ
+
+歌手详情 : https://c.y.qq.com/v8/fcg-bin/fcg_v8_singer_track_cp.fcg?g_tk=5381&loginUin=0&hostUin=0&format=json&inCharset=utf8&outCharset=utf-8&notice=0&platform=yqq.json&needNewCode=0&ct=24&singermid=0025NhlN2yWrP4&order=listen&begin=0&num=30&songstatus=1         singermid后面要改就是Fsinger_mid
+
+
+歌手排行 : https://c.y.qq.com/v8/fcg-bin/fcg_v8_toplist_cp.fcg?tpl=3&page=detail&date=2019-03-22&topid=4&type=top&song_begin=0&song_num=30&g_tk=5381&loginUin=0&hostUin=0&format=json&inCharset=utf8&outCharset=utf-8&notice=0&platform=yqq.json&needNewCode=0
+
+
+
+
+
+
+播放器 : http://dl.stream.qqmusic.qq.com/C400001NmPTG1fVsUw.m4a?guid=4439272200&vkey=3107A312C46FA2617484B6C25B5F93855F51A6DA7EBE3D4AD77E467EF0B10909B06A814E4D3544CE736ACD600B337C9126E743833545EB42&uin=0&fromtag=66
+
+ 夜空中  https://c.y.qq.com/soso/fcgi-bin/client_search_cp?ct=24&qqmusic_ver=1298&new_json=1&remoteplace=txt.yqq.song&searchid=69427188565778481&t=0&aggr=1&cr=1&catZhida=1&lossless=0&flag_qc=0&p=1&n=10&w=%E9%80%83%E8%B7%91%E8%AE%A1%E5%88%92&g_tk=5381&loginUin=0&hostUin=0&format=json&inCharset=utf8&outCharset=utf-8&notice=0&platform=yqq.json&needNewCode=0
+
+file下面的media_mid
+
+http://isure.stream.qqmusic.qq.com/C400000j1EfK3gPnVP.m4a?guid=4439272200&vkey=34CD1997F2574C170CB30EF3BDACA4A1B98C75C9A657E8D14BB124DE9E8C894A1F62FEBD3B5F9B9794BD7985BDDC5872555E9982781C04F8&uin=0&fromtag=66
+
+http://211.162.184.230/amobile.music.tc.qq.com/C400003G0sVN0lWqid.m4a?guid=4439272200&vkey=26C14833F78F1BFE82C6D763ECA5A044AAA6BDF18CA371319A8D11E4273640461F05985767C151D627EDC7739989F77DC3A4E8093A655F6B&uin=0&fromtag=66
+
+
+http://dl.stream.qqmusic.qq.com/http://dl.stream.qqmusic.qq.com/C400001NmPTG1fVsUw.m4a?guid=6361017792&vkey=362F54A65C796A55D05E160332E254D54C5E8592889FAC6BF3B35D8A67F2AC25EB48442C6F3C61C2EF8F4A4FE5485F278B688D9902E20A3C&uin=0&fromtag=38
+
+替换C400001NmPTG1fVsUw就可以了  就是
+
+https://c.y.qq.com/soso/fcgi-bin/client_search_cp?ct=24&qqmusic_ver=1298&new_json=1&remoteplace=txt.yqq.song&searchid=60264790706780361&t=0&aggr=1&cr=1&catZhida=1&lossless=0&flag_qc=0&p=1&n=10&w=%E5%91%A8%E6%9D%B0%E4%BC%A6&g_tk=5381&loginUin=0&hostUin=0&format=json&inCharset=utf8&outCharset=utf-8&notice=0&platform=yqq.json&needNewCode=0   
+
+这个url就是提供C400001NmPTG1fVsUw的
+
+周杰伦 : 0025NhlN2yWrP4   4558
+
+
+http://dl.stream.qqmusic.qq.com/http://dl.stream.qqmusic.qq.com/C400001Qu4I30eVFYb.m4a?guid=6361017792&vkey=362F54A65C796A55D05E160332E254D54C5E8592889FAC6BF3B35D8A67F2AC25EB48442C6F3C61C2EF8F4A4FE5485F278B688D9902E20A3C&uin=0&fromtag=38
+
+图片地址 : https://y.gtimg.cn/mediastyle/yqq/img/player.png?max_age=2592000&v=f051617d8e8291de481d89af94f0cdbd
+
+
+https://y.gtimg.cn/music/photo_new/T001R300x300M000002J4UUk29y8BY.jpg?max_age=2592000
+http://y.gtimg.cn/music/photo_new/T001R150x150M000002J4UUk29y8BY.jpg
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

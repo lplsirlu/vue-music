@@ -9,6 +9,8 @@ import './assets/css/reset.css'
 import swiper from 'vue-awesome-swiper'
 import 'swiper/dist/css/swiper.css'
 import VueLazyload from 'vue-lazyload'
+import './common/common'
+import store from './store'
 
 Vue.use(swiper)
 Vue.use(VueLazyload, {
@@ -25,6 +27,7 @@ Vue.prototype.$axios = axios
 new Vue({
   el: '#app',
   router,
+  store,
   components: { App },
   template: '<App/>'
 })

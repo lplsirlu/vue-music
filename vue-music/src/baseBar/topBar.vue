@@ -80,8 +80,8 @@ export default {
     }
   }
   .secondBox {
-    margin-top: 0.8rem;
-    margin-bottom: 0.8rem;
+    margin-top: 0.8vh;
+    margin-bottom: 0.8vh;
     width: 100%;
     div {
       display: flex;

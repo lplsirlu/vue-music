@@ -7,6 +7,7 @@
 <script>
   import BScroll from 'better-scroll'
   export default {
+    name: 'isScroll',
     props: {
           // 1滚动的时候会派发scroll事件,会截留
           // 2 不会截留 3 除了实时派发scroll事件,在swipe的情况下仍然能派发scroll事件
