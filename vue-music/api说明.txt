@@ -51,16 +51,18 @@ http://dl.stream.qqmusic.qq.com/http://dl.stream.qqmusic.qq.com/C400001Qu4I30eVF
 图片地址 : https://y.gtimg.cn/mediastyle/yqq/img/player.png?max_age=2592000&v=f051617d8e8291de481d89af94f0cdbd
 
 
-https://y.gtimg.cn/music/photo_new/T001R300x300M000002J4UUk29y8BY.jpg?max_age=2592000
-http://y.gtimg.cn/music/photo_new/T001R150x150M000002J4UUk29y8BY.jpg
+
+http://dl.stream.qqmusic.qq.com/C4000048nKLd0yxgdS.m4a?guid=2134948704&vkey=A8A05856EC3E9FA2CC6BFC45D3CC1515296C9E8B3A00AB83D87F8322C988C33BB6AE10C9E4DFC9D4EEA7A92691515AB5557B392E9DF6FADC&uin=0&fromtag=38
+
+http://dl.stream.qqmusic.qq.com/C400003zgt9m1NExJL.m4a?guid=8537498168&vkey=1C2508F8A9DF2234E8E84C0476E406EE7738D2C1181561D32E8CF644BB1E6AEA6D0302C8EA1AE8305A13EACBF2096A907A423BD0E25EC6FA&uin=0&fromtag=38
+
+
+http://isure.stream.qqmusic.qq.com/C400002g42GY3tUBYL.m4a?guid=4439272200&vkey=2ABB2C0444D313AABAF6A1EB9BF4A340488E9CBB2571E981DDAD788F99765911C5492C627932C2C720B1421313FF7087BE54B0CA7A5A3C74&uin=0&fromtag=66
 
 
 
 
-
-
-
-
+记得是大一的js课程中老师给我们看了一个搜狗浏览器的官网 , 那个网页的交互效果简直爽炸了 , 当时就想搞这个东西了 , 直到大三才开始慢慢去琢磨 , 也是因为要找工作了 , 疯狂敲代码 , 看案例 , 看文档 , 就会静态页面制作后就去一家实习 , 很难受因为没人带就我一个前端 , 什么知识都是自己去打开的 , 这个过程并不简单 , 度过后就没那么大的压力了 , 但是他们公司做事方法让我非常不爽 , 直接走人 , 现在我也会做项目了 , 随便找就完事了
 
 
 

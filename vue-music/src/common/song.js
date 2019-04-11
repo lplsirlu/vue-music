@@ -23,7 +23,10 @@ export function createSong(musicData){
         image:  `http://y.gtimg.cn/music/photo_new/T002R90x90M000${musicData.albummid}.jpg?max_age=2592000`,
         // http://dl.stream.qqmusic.qq.com/
         // url: `http://dl.stream.qqmusic.qq.com/C400${musicData.songmid}.m4a?guid=6361017792&vkey=362F54A65C796A55D05E160332E254D54C5E8592889FAC6BF3B35D8A67F2AC25EB48442C6F3C61C2EF8F4A4FE5485F278B688D9902E20A3C&uin=0&fromtag=38`,
-        url: `http://dl.stream.qqmusic.qq.com/C400${musicData.songmid}.m4a?guid=2134948704&vkey=A8A05856EC3E9FA2CC6BFC45D3CC1515296C9E8B3A00AB83D87F8322C988C33BB6AE10C9E4DFC9D4EEA7A92691515AB5557B392E9DF6FADC&uin=0&fromtag=38`,
+        // url: `http://dl.stream.qqmusic.qq.com/C400${musicData.songmid}.m4a?
+        // guid=2134948704&vkey=A8A05856EC3E9FA2CC6BFC45D3CC1515296C9E8B3A00AB
+        // 83D87F8322C988C33BB6AE10C9E4DFC9D4EEA7A92691515AB5557B392E9DF6FADC&uin=0&fromtag=38`,
+        url: `http://dl.stream.qqmusic.qq.com/C400${musicData.songmid}.m4a?guid=5735550464&vkey=AB4D113E0A3C3B0BB01D8ECF43D4D9A219D9235F7185BF9EF84A82FEA9D9DEA662D2AFC7D486316587EE6CEBF5D7807F8C4521889C756388&uin=0&fromtag=38`,
     })
 }
 

@@ -9,6 +9,6 @@ export const GET_PLAYLIST = 'GET_PLAYLIST'
 //sequenceList
 export const GET_SEQUENCELIST = 'GET_SEQUENCELIST'
 
-export const GET_MODE = 'GETMODE'
+export const GET_MODE = 'GET_MODE'
 
 export const GET_CURRENTINDEX = 'GET_CURRENTINDEX'

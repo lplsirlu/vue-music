@@ -138,8 +138,9 @@ export default {
       // console.log(this.ulScrollY);
     },
     GetData() {
+      let api = process.env.NODE_ENV === 'development' ? '/api' : ''
       this.$axios
-        .get(`/api${singerUrl}`)
+        .get(`${api}${singerUrl}`)
         .then(pos => {
           this.singerList = pos.data.data.list;
           this.singerList.forEach((item, index) => {
@@ -242,7 +243,7 @@ export default {
     position: fixed;
     top: 20%;
     right: 0%;
-    background: #e95426;
+    background: #DAB031;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
@@ -261,7 +262,7 @@ export default {
   height: 10.5vh;
   top: 0;
   left: 0;
-  background: saddlebrown;
+  background: #DAB031;
 }
 .singer_content {
   width: 100%;
@@ -276,7 +277,7 @@ export default {
       top: 0;
       width: 100%;
       p {
-        background: #8b4513;
+        background: #DAB031;
         padding: 0.5rem 0 0.5rem;
         box-sizing: border-box;
         padding-left: 0.5rem;
@@ -286,7 +287,7 @@ export default {
       .titP {
         width: 100%;
         box-sizing: border-box;
-        background: #8b4513;
+        background: #DAB031;
         padding: 0.5rem 0 0.5rem;
         padding-left: 0.5rem;
         border-top: 1px solid #ffffff;

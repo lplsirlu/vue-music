@@ -28,7 +28,7 @@ export default {
       title: [
         { tit: "推荐", path: "/" },
         { tit: "歌手", path: "singer" },
-        { tit: "排行", path: "rank" },
+        // { tit: "排行", path: "rank" },
         { tit: "搜索", path: "search" }
       ]
     };

@@ -7,7 +7,7 @@
       <!-- 背景层 -->
       <div class="bg_layer" ref="bg_layer"></div>
       <div class="singer_list_bot" ref="singer_list_bot">
-        <singer-list-content :songs="songs" @onShort="onShort" @select="selectItem"></singer-list-content>
+        <singer-list-content :songs="songerList" @onShort="onShort" @select="selectItem"></singer-list-content>
       </div>
     </div>
   </transition>
@@ -19,6 +19,7 @@ import { createSong } from "@/common/song";
 import SingerListTop from "@/baseBar/singerListTop";
 import SingerListContent from "@/baseBar/singerListContent";
 import { mapActions } from "vuex";
+const arr = {val:''}
 export default {
   name: "singer_list",
   components: {
@@ -27,7 +28,7 @@ export default {
   },
   data() {
     return {
-      songerList: [] // 详情歌曲list
+      songerList: [], // 详情歌曲list
     };
   },
   computed: {
@@ -49,16 +50,16 @@ export default {
   },
   methods: {
     selectItem(item, index) {
-      console.log(item, index)
       this.queryPlay({
-        list: this.songs,
+        playlist: this.songs,
+        selist: this.songs,
         index: index
       })
+      console.log(this.songs, index)
     },
     ...mapActions(["queryPlay"]), // 调用action里面的函数
     onShort(y) {
       this.$refs.singer_list_bot.style.transfrom = `translate3d(0,${y}px,0)`;
-      this.$refs.bg_layer.style.height = `${-y}px`;
       let zIndex = 0;
       let scale = 1;
       let imgDom = this.$refs.bjImage.$el.getElementsByClassName("bj_image")[0];
@@ -71,7 +72,7 @@ export default {
         imgDom.style.height = "45px";
         imgDom.style.zIndex = zIndex;
       } else if (-y >= 0 && -y <= 230) {
-        imgDom.style.paddingTop = `70%`;
+        imgDom.style.paddingTop = `40vh`;
         imgDom.style.height = "0px";
         if (-y >= 45 && -y <= 75) {
           playBtn.style.zIndex = 0;
@@ -84,14 +85,15 @@ export default {
       const percent = Math.abs(y / imgDom.offsetHeight);
       if (y > 0) {
         scale = 1 + percent;
-        console.log(scale, imgDom.style.transfrom);
         // imgDom.style.transfrom = `scale(${scale})`
-        imgDom.style.transfrom = `scale(1.2)`;
+        imgDom.style.transform = `scale(${scale})`;
         playBtn.style.zIndex = 1;
         playBtn.style.opacity = 1;
+        this.$refs.bg_layer.style.height = `${0}px`;
+      }else{
+        this.$refs.bg_layer.style.height = `${-y}px`;
       }
       imgDom.style.zIndex = zIndex;
-      console.log(y, imgDom.offsetHeight);
     },
     getSingerListInfo() {
       if (!this.singer.Fsinger_mid) {
@@ -102,8 +104,13 @@ export default {
         .get(`/api${singerList(this.singer.Fsinger_mid)}`)
         .then(pos => {
           // console.log(pos); // pos.data.data.list
-          this.songerList = this.requireSingerList(pos.data.data.list);
-          console.log(this.songerList);
+          let move = this.requireSingerList(pos.data.data.list);
+          move.forEach((item, index) => {
+            item.image = item.image.replace('90x90','300x300')
+          })
+          this.songerList = move
+          arr.val = move
+          console.log(arr.val);
         })
         .catch(err => {
           console.log(err);
@@ -162,7 +169,7 @@ export default {
     // height: 100%;
     position: absolute;
     // top: 40vh;
-    bottom: 59vh;
+    bottom: 56vh;
     background: #ffffff;
   }
 }

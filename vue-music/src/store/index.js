@@ -14,7 +14,7 @@ const state = {
     singer: {},
     playing: false,
     fullScreen: false, //是否全屏
-    playlist: [], // 播放列表
+    playlist: [], // 当前播放列表
     sequenceList: [],
     mode: playMode.sequence, // 三种播放形式
     currentIndex: -1,//当前索引

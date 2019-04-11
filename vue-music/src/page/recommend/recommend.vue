@@ -53,7 +53,8 @@
     },
     created() {
       this.loadData()
-      this.$axios.get(`/api${urlImg}`).then(pos => {
+      let api = process.env.NODE_ENV === 'development' ? '/api' : ''
+      this.$axios.get(`${api}${urlImg}`).then(pos => {
         this.imgList = pos.data.data.slider
         console.log(this.imgList)
       }).catch(err => {
@@ -95,7 +96,7 @@
     z-index: 999;
     top: 0;
     left: 0;
-    background: saddlebrown;
+    background: #DAB031;
   }
   .meLoading{
     margin-top: 44%;

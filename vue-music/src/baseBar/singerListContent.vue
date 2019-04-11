@@ -57,13 +57,15 @@ export default {
       this.scrollY = pos.y;
     },
     selectItem(item, index) {
-      console.log(item, index)
       this.$emit("select", item, index);
     }
   },
   watch: {
     scrollY(newY) {
       this.$emit("onShort", this.scrollY);
+    },
+    songs(newSongs, oldSongs){
+      console.log(newSongs, oldSongs)
     }
   },
   components: {
