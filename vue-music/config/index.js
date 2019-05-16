@@ -10,12 +10,24 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
-      '/api': {
-        target: 'https://c.y.qq.com',
-        changeOrigin: true,
-        pathRewrite: {
-          '^/api': ''
-        }
+      '/api':{
+        target:'https://c.y.qq.com',
+        headers: {
+            referer: 'https://c.y.qq.com/',
+            host: 'c.y.qq.com'
+        },
+        ws:true,
+        changeOrigin:true,
+        pathRewrite:{
+            '^/api':''
+        },
+      // '/api': {
+      //   target: 'https://c.y.qq.com',
+      //   secure: false,
+      //   changeOrigin: true,
+      //   pathRewrite: {
+      //     '^/api': ''
+      //   }
       },
       '/u': {
         target: 'https://u.y.qq.com',

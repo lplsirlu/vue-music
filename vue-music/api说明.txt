@@ -8,6 +8,10 @@
 
 为你推荐歌单 : https://u.y.qq.com/cgi-bin/musicu.fcg?-=recom8916479739195171&g_tk=5381&loginUin=0&hostUin=0&format=json&inCharset=utf8&outCharset=utf-8&notice=0&platform=yqq.json&needNewCode=0&data=%7B%22comm%22%3A%7B%22ct%22%3A24%7D%2C%22recomPlaylist%22%3A%7B%22method%22%3A%22get_hot_recommend%22%2C%22param%22%3A%7B%22async%22%3A1%2C%22cmd%22%3A2%7D%2C%22module%22%3A%22playlist.HotRecommendServer%22%7D%7D
 
+
+https://c.y.qq.com/qzone/fcg-bin/fcg_ucc_getcdinfo_byids_cp.fcg?type=1&json=1&utf8=1&onlysong=0&disstid=6946836348&g_tk=5381&loginUin=0&hostUin=0&format=json&inCharset=utf8&outCharset=utf-8&notice=0&platform=yqq.json&needNewCode=0
+
+
 歌单排行   热 : https://u.y.qq.com/cgi-bin/musicu.fcg?-=getUCGI7510854485523315&g_tk=5381&loginUin=0&hostUin=0&format=json&inCharset=utf8&outCharset=utf-8&notice=0&platform=yqq.json&needNewCode=0&data=%7B%22comm%22%3A%7B%22ct%22%3A24%2C%22cv%22%3A0%7D%2C%22singerList%22%3A%7B%22module%22%3A%22Music.SingerListServer%22%2C%22method%22%3A%22get_singer_list%22%2C%22param%22%3A%7B%22area%22%3A-100%2C%22sex%22%3A-100%2C%22genre%22%3A-100%2C%22index%22%3A-100%2C%22sin%22%3A0%2C%22cur_page%22%3A1%7D%7D%7D
 
 字母排序  : https://c.y.qq.com/v8/fcg-bin/v8.fcg?channel=singer&page=list&key=all_all_all&pagesize=100&pagenum=1&g_tk=1664029744&loginUin=280309453&hostUin=0&format=jsonp&inCharset=utf8&outCharset=utf-8&notice=0&platform=yqq&needNewCodr=0
@@ -63,6 +67,9 @@ http://isure.stream.qqmusic.qq.com/C400002g42GY3tUBYL.m4a?guid=4439272200&vkey=2
 
 
 记得是大一的js课程中老师给我们看了一个搜狗浏览器的官网 , 那个网页的交互效果简直爽炸了 , 当时就想搞这个东西了 , 直到大三才开始慢慢去琢磨 , 也是因为要找工作了 , 疯狂敲代码 , 看案例 , 看文档 , 就会静态页面制作后就去一家实习 , 很难受因为没人带就我一个前端 , 什么知识都是自己去打开的 , 这个过程并不简单 , 度过后就没那么大的压力了 , 但是他们公司做事方法让我非常不爽 , 直接走人 , 现在我也会做项目了 , 随便找就完事了
+
+
+http://dl.stream.qqmusic.qq.com/C4000008ZD3g1RmuyM.m4a?guid=4439272200&vkey=8DE52D9646FE8267B5D8CD3376FBF9A989A6A2F45AE8822464C583B9647F809EBFFE5A8395E394891D80ED74462913A0A6D1EDD46291A8F7&uin=0&fromtag=66
 
 
 
