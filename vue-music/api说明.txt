@@ -1,38 +1,38 @@
-°¸Àı : http://ustbhuangyi.com/music/#/recommend
+æ¡ˆä¾‹ : http://ustbhuangyi.com/music/#/recommend
 
-ÂÖ²¥Í¼api½Ó¿ÚÊÇ : https://c.y.qq.com/musichall/fcgi-bin/fcg_yqqhomepagerecommend.fcg
+è½®æ’­å›¾apiæ¥å£æ˜¯ : https://c.y.qq.com/musichall/fcgi-bin/fcg_yqqhomepagerecommend.fcg
 
-ÂÖ²¥Í¼ĞèÒª°ÑÕû¸ö·ÖÀë³öÀ´×ö¸öÄ£¿é , ÓÃsolt , ÔÚ¸´ÓÃµÄÊ±ºò¾Í·Å¼¸¸öÍ¼Æ¬µÄdiv
+è½®æ’­å›¾éœ€è¦æŠŠæ•´ä¸ªåˆ†ç¦»å‡ºæ¥åšä¸ªæ¨¡å— , ç”¨solt , åœ¨å¤ç”¨çš„æ—¶å€™å°±æ”¾å‡ ä¸ªå›¾ç‰‡çš„div
 
-ÈÈÃÅÍÆ¼ö¸èµ¥api :http://ustbhuangyi.com/music/api/getDiscList?g_tk=1928093487&inCharset=utf-8&outCharset=utf-8&notice=0&format=json&platform=yqq&hostUin=0&sin=0&ein=29&sortId=5&needNewCode=0&categoryId=10000000&rnd=0.7556053143494355
+çƒ­é—¨æ¨èæ­Œå•api :http://ustbhuangyi.com/music/api/getDiscList?g_tk=1928093487&inCharset=utf-8&outCharset=utf-8&notice=0&format=json&platform=yqq&hostUin=0&sin=0&ein=29&sortId=5&needNewCode=0&categoryId=10000000&rnd=0.7556053143494355
 
-ÎªÄãÍÆ¼ö¸èµ¥ : https://u.y.qq.com/cgi-bin/musicu.fcg?-=recom8916479739195171&g_tk=5381&loginUin=0&hostUin=0&format=json&inCharset=utf8&outCharset=utf-8&notice=0&platform=yqq.json&needNewCode=0&data=%7B%22comm%22%3A%7B%22ct%22%3A24%7D%2C%22recomPlaylist%22%3A%7B%22method%22%3A%22get_hot_recommend%22%2C%22param%22%3A%7B%22async%22%3A1%2C%22cmd%22%3A2%7D%2C%22module%22%3A%22playlist.HotRecommendServer%22%7D%7D
+ä¸ºä½ æ¨èæ­Œå• : https://u.y.qq.com/cgi-bin/musicu.fcg?-=recom8916479739195171&g_tk=5381&loginUin=0&hostUin=0&format=json&inCharset=utf8&outCharset=utf-8&notice=0&platform=yqq.json&needNewCode=0&data=%7B%22comm%22%3A%7B%22ct%22%3A24%7D%2C%22recomPlaylist%22%3A%7B%22method%22%3A%22get_hot_recommend%22%2C%22param%22%3A%7B%22async%22%3A1%2C%22cmd%22%3A2%7D%2C%22module%22%3A%22playlist.HotRecommendServer%22%7D%7D
 
 
 https://c.y.qq.com/qzone/fcg-bin/fcg_ucc_getcdinfo_byids_cp.fcg?type=1&json=1&utf8=1&onlysong=0&disstid=6946836348&g_tk=5381&loginUin=0&hostUin=0&format=json&inCharset=utf8&outCharset=utf-8&notice=0&platform=yqq.json&needNewCode=0
 
 
-¸èµ¥ÅÅĞĞ   ÈÈ : https://u.y.qq.com/cgi-bin/musicu.fcg?-=getUCGI7510854485523315&g_tk=5381&loginUin=0&hostUin=0&format=json&inCharset=utf8&outCharset=utf-8&notice=0&platform=yqq.json&needNewCode=0&data=%7B%22comm%22%3A%7B%22ct%22%3A24%2C%22cv%22%3A0%7D%2C%22singerList%22%3A%7B%22module%22%3A%22Music.SingerListServer%22%2C%22method%22%3A%22get_singer_list%22%2C%22param%22%3A%7B%22area%22%3A-100%2C%22sex%22%3A-100%2C%22genre%22%3A-100%2C%22index%22%3A-100%2C%22sin%22%3A0%2C%22cur_page%22%3A1%7D%7D%7D
+æ­Œå•æ’è¡Œ   çƒ­ : https://u.y.qq.com/cgi-bin/musicu.fcg?-=getUCGI7510854485523315&g_tk=5381&loginUin=0&hostUin=0&format=json&inCharset=utf8&outCharset=utf-8&notice=0&platform=yqq.json&needNewCode=0&data=%7B%22comm%22%3A%7B%22ct%22%3A24%2C%22cv%22%3A0%7D%2C%22singerList%22%3A%7B%22module%22%3A%22Music.SingerListServer%22%2C%22method%22%3A%22get_singer_list%22%2C%22param%22%3A%7B%22area%22%3A-100%2C%22sex%22%3A-100%2C%22genre%22%3A-100%2C%22index%22%3A-100%2C%22sin%22%3A0%2C%22cur_page%22%3A1%7D%7D%7D
 
-×ÖÄ¸ÅÅĞò  : https://c.y.qq.com/v8/fcg-bin/v8.fcg?channel=singer&page=list&key=all_all_all&pagesize=100&pagenum=1&g_tk=1664029744&loginUin=280309453&hostUin=0&format=jsonp&inCharset=utf8&outCharset=utf-8&notice=0&platform=yqq&needNewCodr=0
+å­—æ¯æ’åº  : https://c.y.qq.com/v8/fcg-bin/v8.fcg?channel=singer&page=list&key=all_all_all&pagesize=100&pagenum=1&g_tk=1664029744&loginUin=280309453&hostUin=0&format=jsonp&inCharset=utf8&outCharset=utf-8&notice=0&platform=yqq&needNewCodr=0
 
 001JuGrt372YIQ
 
-¸èÊÖÏêÇé : https://c.y.qq.com/v8/fcg-bin/fcg_v8_singer_track_cp.fcg?g_tk=5381&loginUin=0&hostUin=0&format=json&inCharset=utf8&outCharset=utf-8&notice=0&platform=yqq.json&needNewCode=0&ct=24&singermid=0025NhlN2yWrP4&order=listen&begin=0&num=30&songstatus=1         singermidºóÃæÒª¸Ä¾ÍÊÇFsinger_mid
+æ­Œæ‰‹è¯¦æƒ… : https://c.y.qq.com/v8/fcg-bin/fcg_v8_singer_track_cp.fcg?g_tk=5381&loginUin=0&hostUin=0&format=json&inCharset=utf8&outCharset=utf-8&notice=0&platform=yqq.json&needNewCode=0&ct=24&singermid=0025NhlN2yWrP4&order=listen&begin=0&num=30&songstatus=1         singermidåé¢è¦æ”¹å°±æ˜¯Fsinger_mid
 
 
-¸èÊÖÅÅĞĞ : https://c.y.qq.com/v8/fcg-bin/fcg_v8_toplist_cp.fcg?tpl=3&page=detail&date=2019-03-22&topid=4&type=top&song_begin=0&song_num=30&g_tk=5381&loginUin=0&hostUin=0&format=json&inCharset=utf8&outCharset=utf-8&notice=0&platform=yqq.json&needNewCode=0
-
-
-
+æ­Œæ‰‹æ’è¡Œ : https://c.y.qq.com/v8/fcg-bin/fcg_v8_toplist_cp.fcg?tpl=3&page=detail&date=2019-03-22&topid=4&type=top&song_begin=0&song_num=30&g_tk=5381&loginUin=0&hostUin=0&format=json&inCharset=utf8&outCharset=utf-8&notice=0&platform=yqq.json&needNewCode=0
 
 
 
-²¥·ÅÆ÷ : http://dl.stream.qqmusic.qq.com/C400001NmPTG1fVsUw.m4a?guid=4439272200&vkey=3107A312C46FA2617484B6C25B5F93855F51A6DA7EBE3D4AD77E467EF0B10909B06A814E4D3544CE736ACD600B337C9126E743833545EB42&uin=0&fromtag=66
 
- Ò¹¿ÕÖĞ  https://c.y.qq.com/soso/fcgi-bin/client_search_cp?ct=24&qqmusic_ver=1298&new_json=1&remoteplace=txt.yqq.song&searchid=69427188565778481&t=0&aggr=1&cr=1&catZhida=1&lossless=0&flag_qc=0&p=1&n=10&w=%E9%80%83%E8%B7%91%E8%AE%A1%E5%88%92&g_tk=5381&loginUin=0&hostUin=0&format=json&inCharset=utf8&outCharset=utf-8&notice=0&platform=yqq.json&needNewCode=0
 
-fileÏÂÃæµÄmedia_mid
+
+æ’­æ”¾å™¨ : http://dl.stream.qqmusic.qq.com/C400001NmPTG1fVsUw.m4a?guid=4439272200&vkey=3107A312C46FA2617484B6C25B5F93855F51A6DA7EBE3D4AD77E467EF0B10909B06A814E4D3544CE736ACD600B337C9126E743833545EB42&uin=0&fromtag=66
+
+ å¤œç©ºä¸­  https://c.y.qq.com/soso/fcgi-bin/client_search_cp?ct=24&qqmusic_ver=1298&new_json=1&remoteplace=txt.yqq.song&searchid=69427188565778481&t=0&aggr=1&cr=1&catZhida=1&lossless=0&flag_qc=0&p=1&n=10&w=%E9%80%83%E8%B7%91%E8%AE%A1%E5%88%92&g_tk=5381&loginUin=0&hostUin=0&format=json&inCharset=utf8&outCharset=utf-8&notice=0&platform=yqq.json&needNewCode=0
+
+fileä¸‹é¢çš„media_mid
 
 http://isure.stream.qqmusic.qq.com/C400000j1EfK3gPnVP.m4a?guid=4439272200&vkey=34CD1997F2574C170CB30EF3BDACA4A1B98C75C9A657E8D14BB124DE9E8C894A1F62FEBD3B5F9B9794BD7985BDDC5872555E9982781C04F8&uin=0&fromtag=66
 
@@ -41,18 +41,18 @@ http://211.162.184.230/amobile.music.tc.qq.com/C400003G0sVN0lWqid.m4a?guid=44392
 
 http://dl.stream.qqmusic.qq.com/http://dl.stream.qqmusic.qq.com/C400001NmPTG1fVsUw.m4a?guid=6361017792&vkey=362F54A65C796A55D05E160332E254D54C5E8592889FAC6BF3B35D8A67F2AC25EB48442C6F3C61C2EF8F4A4FE5485F278B688D9902E20A3C&uin=0&fromtag=38
 
-Ìæ»»C400001NmPTG1fVsUw¾Í¿ÉÒÔÁË  ¾ÍÊÇ
+æ›¿æ¢C400001NmPTG1fVsUwå°±å¯ä»¥äº†  å°±æ˜¯
 
 https://c.y.qq.com/soso/fcgi-bin/client_search_cp?ct=24&qqmusic_ver=1298&new_json=1&remoteplace=txt.yqq.song&searchid=60264790706780361&t=0&aggr=1&cr=1&catZhida=1&lossless=0&flag_qc=0&p=1&n=10&w=%E5%91%A8%E6%9D%B0%E4%BC%A6&g_tk=5381&loginUin=0&hostUin=0&format=json&inCharset=utf8&outCharset=utf-8&notice=0&platform=yqq.json&needNewCode=0   
 
-Õâ¸öurl¾ÍÊÇÌá¹©C400001NmPTG1fVsUwµÄ
+è¿™ä¸ªurlå°±æ˜¯æä¾›C400001NmPTG1fVsUwçš„
 
-ÖÜ½ÜÂ× : 0025NhlN2yWrP4   4558
+å‘¨æ°ä¼¦ : 0025NhlN2yWrP4   4558
 
 
 http://dl.stream.qqmusic.qq.com/http://dl.stream.qqmusic.qq.com/C400001Qu4I30eVFYb.m4a?guid=6361017792&vkey=362F54A65C796A55D05E160332E254D54C5E8592889FAC6BF3B35D8A67F2AC25EB48442C6F3C61C2EF8F4A4FE5485F278B688D9902E20A3C&uin=0&fromtag=38
 
-Í¼Æ¬µØÖ· : https://y.gtimg.cn/mediastyle/yqq/img/player.png?max_age=2592000&v=f051617d8e8291de481d89af94f0cdbd
+å›¾ç‰‡åœ°å€ : https://y.gtimg.cn/mediastyle/yqq/img/player.png?max_age=2592000&v=f051617d8e8291de481d89af94f0cdbd
 
 
 
@@ -66,11 +66,17 @@ http://isure.stream.qqmusic.qq.com/C400002g42GY3tUBYL.m4a?guid=4439272200&vkey=2
 
 
 
-¼ÇµÃÊÇ´óÒ»µÄjs¿Î³ÌÖĞÀÏÊ¦¸øÎÒÃÇ¿´ÁËÒ»¸öËÑ¹·ä¯ÀÀÆ÷µÄ¹ÙÍø , ÄÇ¸öÍøÒ³µÄ½»»¥Ğ§¹û¼òÖ±Ë¬Õ¨ÁË , µ±Ê±¾ÍÏë¸ãÕâ¸ö¶«Î÷ÁË , Ö±µ½´óÈı²Å¿ªÊ¼ÂıÂıÈ¥×ÁÄ¥ , Ò²ÊÇÒòÎªÒªÕÒ¹¤×÷ÁË , ·è¿ñÇÃ´úÂë , ¿´°¸Àı , ¿´ÎÄµµ , ¾Í»á¾²Ì¬Ò³ÃæÖÆ×÷ºó¾ÍÈ¥Ò»¼ÒÊµÏ° , ºÜÄÑÊÜÒòÎªÃ»ÈË´ø¾ÍÎÒÒ»¸öÇ°¶Ë , Ê²Ã´ÖªÊ¶¶¼ÊÇ×Ô¼ºÈ¥´ò¿ªµÄ , Õâ¸ö¹ı³Ì²¢²»¼òµ¥ , ¶È¹ıºó¾ÍÃ»ÄÇÃ´´óµÄÑ¹Á¦ÁË , µ«ÊÇËûÃÇ¹«Ë¾×öÊÂ·½·¨ÈÃÎÒ·Ç³£²»Ë¬ , Ö±½Ó×ßÈË , ÏÖÔÚÎÒÒ²»á×öÏîÄ¿ÁË , Ëæ±ãÕÒ¾ÍÍêÊÂÁË
+è®°å¾—æ˜¯å¤§ä¸€çš„jsè¯¾ç¨‹ä¸­è€å¸ˆç»™æˆ‘ä»¬çœ‹äº†ä¸€ä¸ªæœç‹—æµè§ˆå™¨çš„å®˜ç½‘ , é‚£ä¸ªç½‘é¡µçš„äº¤äº’æ•ˆæœç®€ç›´çˆ½ç‚¸äº† , å½“æ—¶å°±æƒ³æè¿™ä¸ªä¸œè¥¿äº† , ç›´åˆ°å¤§ä¸‰æ‰å¼€å§‹æ…¢æ…¢å»ç¢ç£¨ , ä¹Ÿæ˜¯å› ä¸ºè¦æ‰¾å·¥ä½œäº† , ç–¯ç‹‚æ•²ä»£ç  , çœ‹æ¡ˆä¾‹ , çœ‹æ–‡æ¡£ , å°±ä¼šé™æ€é¡µé¢åˆ¶ä½œåå°±å»ä¸€å®¶å®ä¹  , å¾ˆéš¾å—å› ä¸ºæ²¡äººå¸¦å°±æˆ‘ä¸€ä¸ªå‰ç«¯ , ä»€ä¹ˆçŸ¥è¯†éƒ½æ˜¯è‡ªå·±å»æ‰“å¼€çš„ , è¿™ä¸ªè¿‡ç¨‹å¹¶ä¸ç®€å• , åº¦è¿‡åå°±æ²¡é‚£ä¹ˆå¤§çš„å‹åŠ›äº† , ä½†æ˜¯ä»–ä»¬å…¬å¸åšäº‹æ–¹æ³•è®©æˆ‘éå¸¸ä¸çˆ½ , ç›´æ¥èµ°äºº , ç°åœ¨æˆ‘ä¹Ÿä¼šåšé¡¹ç›®äº† , éšä¾¿æ‰¾å°±å®Œäº‹äº†
 
 
 http://dl.stream.qqmusic.qq.com/C4000008ZD3g1RmuyM.m4a?guid=4439272200&vkey=8DE52D9646FE8267B5D8CD3376FBF9A989A6A2F45AE8822464C583B9647F809EBFFE5A8395E394891D80ED74462913A0A6D1EDD46291A8F7&uin=0&fromtag=66
 
+
+è·å–æ­Œæ›²çš„vKey
+https://u.y.qq.com/cgi-bin/musicu.fcg?-=getplaysongvkey4686488719062889&g_tk=2044843965&loginUin=1959871096&hostUin=0&format=json&inCharset=utf8&outCharset=utf-8&notice=0&platform=yqq.json&needNewCode=0&data=%7B%22req%22%3A%7B%22module%22%3A%22CDN.SrfCdnDispatchServer%22%2C%22method%22%3A%22GetCdnDispatch%22%2C%22param%22%3A%7B%22guid%22%3A%228159725360%22%2C%22calltype%22%3A0%2C%22userip%22%3A%22%22%7D%7D%2C%22req_0%22%3A%7B%22module%22%3A%22vkey.GetVkeyServer%22%2C%22method%22%3A%22CgiGetVkey%22%2C%22param%22%3A%7B%22guid%22%3A%228159725360%22%2C%22songmid%22%3A%5B%22004Uln1G2Aunqw%22%5D%2C%22songtype%22%3A%5B0%5D%2C%22uin%22%3A%221959871096%22%2C%22loginflag%22%3A1%2C%22platform%22%3A%2220%22%7D%7D%2C%22comm%22%3A%7B%22uin%22%3A1959871096%2C%22format%22%3A%22json%22%2C%22ct%22%3A24%2C%22cv%22%3A0%7D%7D
+
+
+é‡Œé¢æœ‰vkey,éœ€è¦çŸ¥é“æ˜¯ä»å“ªä¸ªidè·å–çš„
 
 
 
