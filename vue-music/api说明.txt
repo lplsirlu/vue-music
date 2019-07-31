@@ -76,7 +76,7 @@ http://dl.stream.qqmusic.qq.com/C4000008ZD3g1RmuyM.m4a?guid=4439272200&vkey=8DE5
 https://u.y.qq.com/cgi-bin/musicu.fcg?-=getplaysongvkey4686488719062889&g_tk=2044843965&loginUin=1959871096&hostUin=0&format=json&inCharset=utf8&outCharset=utf-8&notice=0&platform=yqq.json&needNewCode=0&data=%7B%22req%22%3A%7B%22module%22%3A%22CDN.SrfCdnDispatchServer%22%2C%22method%22%3A%22GetCdnDispatch%22%2C%22param%22%3A%7B%22guid%22%3A%228159725360%22%2C%22calltype%22%3A0%2C%22userip%22%3A%22%22%7D%7D%2C%22req_0%22%3A%7B%22module%22%3A%22vkey.GetVkeyServer%22%2C%22method%22%3A%22CgiGetVkey%22%2C%22param%22%3A%7B%22guid%22%3A%228159725360%22%2C%22songmid%22%3A%5B%22004Uln1G2Aunqw%22%5D%2C%22songtype%22%3A%5B0%5D%2C%22uin%22%3A%221959871096%22%2C%22loginflag%22%3A1%2C%22platform%22%3A%2220%22%7D%7D%2C%22comm%22%3A%7B%22uin%22%3A1959871096%2C%22format%22%3A%22json%22%2C%22ct%22%3A24%2C%22cv%22%3A0%7D%7D
 
 
-里面有vkey,需要知道是从哪个id获取的
+里面有vkey,需要知道是从哪个id获取的      在midurlinfo里的vkey
 
 
 
