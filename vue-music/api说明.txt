@@ -78,6 +78,52 @@ https://u.y.qq.com/cgi-bin/musicu.fcg?-=getplaysongvkey4686488719062889&g_tk=204
 
 里面有vkey,需要知道是从哪个id获取的      在midurlinfo里的vkey
 
+、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、
+
+推荐：有五个tab
+		https://u.y.qq.com/cgi-bin/musicu.fcg?-=recom7320526598582697&g_tk=5381&loginUin=0&hostUin=0&format=json&inCharset=utf8&outCharset=utf-8&notice=0&platform=yqq.json&needNewCode=0&data=%7B%22comm%22%3A%7B%22ct%22%3A24%7D%2C%22recomPlaylist%22%3A%7B%22method%22%3A%22get_hot_recommend%22%2C%22param%22%3A%7B%22async%22%3A1%2C%22cmd%22%3A2%7D%2C%22module%22%3A%22playlist.HotRecommendServer%22%7D%7D   
+ 
+点击获取接口  用里面的content_id替换下面接口的disstid字段, 就是掘金的第二个
+
+https://c.y.qq.com/qzone/fcg-bin/fcg_ucc_getcdinfo_byids_cp.fcg?type=1&json=1&utf8=1&onlysong=0&disstid=3602407677&format=jsonp&g_tk=5381&jsonpCallback=playlistinfoCallback&loginUin=0&hostUin=0&inCharset=utf8&outCharset=utf-8&notice=0&platform=yqq&needNewCode=0
+
+
+
+这是获取歌曲的vkey的接口，参数就是songmid，找到下面的songmid，这就是参数获取每个歌曲的vkey，可能有时间限制
+
+https://u.y.qq.com/cgi-bin/musicu.fcg?-=getplaysongvkey9683096129122775&g_tk=5381&loginUin=0&hostUin=0&format=json&inCharset=utf8&outCharset=utf-8&notice=0&platform=yqq.json&needNewCode=0&data=%7B%22req_0%22%3A%7B%22module%22%3A%22vkey.GetVkeyServer%22%2C%22method%22%3A%22CgiGetVkey%22%2C%22param%22%3A%7B%22guid%22%3A%225438833100%22%2C%22songmid%22%3A%5B%22003jOZd027MQzG%22%5D%2C%22songtype%22%3A%5B0%5D%2C%22uin%22%3A%220%22%2C%22loginflag%22%3A1%2C%22platform%22%3A%2220%22%7D%7D%2C%22comm%22%3A%7B%22uin%22%3A0%2C%22format%22%3A%22json%22%2C%22ct%22%3A24%2C%22cv%22%3A0%7D%7D
+
+首页完毕
+
+歌手页：
+
+原封不动
+
+排行页：
+
+https://c.y.qq.com/v8/fcg-bin/fcg_myqq_toplist.fcg?g_tk=5381&uin=0&format=jsonp&jsonpCallback=callback&inCharset=utf-8&outCharset=utf-8&notice=0&platform=h5&needNewCode=1&_=1564586409647
+
+这里点击后传id为参数给排行详情页接口的topid字段》
+
+https://c.y.qq.com/v8/fcg-bin/fcg_v8_toplist_cp.fcg?g_tk=5381&uin=0&format=jsonp&jsonpCallback=callback&inCharset=utf-8&outCharset=utf-8&notice=0&platform=h5&needNewCode=1&tpl=3&page=detail&type=top&topid=26&_=1512563984096
+
+然后点击播放
+
+排行完毕
+
+搜索页：
+
+这是热搜，有个字段是超级热搜
+
+https://c.y.qq.com/splcloud/fcgi-bin/gethotkey.fcg?_=1564588080081&g_tk=5381&uin=0&format=json&inCharset=utf-8&outCharset=utf-8&notice=0&platform=h5&needNewCode=1
+
+
+搜索接口，字段说明见掘金
+
+https://c.y.qq.com/soso/fcgi-bin/client_search_cp?g_tk=5381&p=1&n=20&w=%E6%83%B3%E6%AD%BB%E5%8D%B4%E5%8F%88%E4%B8%8D%E6%95%A2&format=jsonp&jsonpCallback=callback&loginUin=0&hostUin=0&inCharset=utf8&outCharset=utf-8&notice=0&platform=yqq&needNewCode=0&remoteplace=txt.yqq.song&t=0&aggr=1&cr=1&catZhida=1&flag_qc=0%E4%BD%9C%E8%80%85%EF%BC%9Acode_mcx%E9%93%BE%E6%8E%A5%EF%BC%9Ahttps://juejin.im/post/5a35228e51882506a463b172%E6%9D%A5%E6%BA%90%EF%BC%9A%E6%8E%98%E9%87%91%E8%91%97%E4%BD%9C%E6%9D%83%E5%BD%92%E4%BD%9C%E8%80%85%E6%89%80%E6%9C%89%E3%80%82%E5%95%86%E4%B8%9A%E8%BD%AC%E8%BD%BD%E8%AF%B7%E8%81%94%E7%B3%BB%E4%BD%9C%E8%80%85%E8%8E%B7%E5%BE%97%E6%8E%88%E6%9D%83%EF%BC%8C%E9%9D%9E%E5%95%86%E4%B8%9A%E8%BD%AC%E8%BD%BD%E8%AF%B7%E6%B3%A8%E6%98%8E%E5%87%BA%E5%A4%84%E3%80%82
+
+
+
 
 
 
